@@ -104,7 +104,7 @@
         <script src="${pageContext.request.contextPath}/js/services/road_service.js"></script>-->
 
     </head>
-    <body>
+    <body class="">
         <div id="parrentDiv" class="bg-city-spcl" data-ui-view></div>
     </body>
 </html>

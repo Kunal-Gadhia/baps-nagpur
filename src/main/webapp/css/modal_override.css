@@ -1,14 +1,4 @@
-/* 
-    Created on : 8 Mar, 2016, 10:07:58 AM
-    Author     : sabrina
-*/
-
-/*
- * Extensions for the Bootstrap Modal to be shown as soon as it's partial is loaded.
- * This is specifically because each modal has it's own state, and we don't want to do handle the management
- *
- */
-.modal-bapsnagpur
+/*.modal-bapsnagpur
 {
     display:block;
 }
@@ -27,4 +17,4 @@
 body .modal-bapsnagpur
 {
     overflow: auto;
-}
+}*/

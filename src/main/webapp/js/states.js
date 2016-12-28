@@ -16,10 +16,10 @@ angular.module("bapsnagpur.states", ['ngAnimate', 'ui.bootstrap'])
                 'templateUrl': templateRoot + '/logout.html',
                 'controller': 'LogoutController'
             });
-            $stateProvider.state('main', {
-                'url': '/main',
-                'templateUrl': templateRoot + '/main.html',
-                'controller': 'MainController'
+            $stateProvider.state('landing_page', {
+                'url': '/landing_page',
+                'templateUrl': templateRoot + '/landing_page.html',
+                'controller': 'LandingPageController'
             });
             $stateProvider.state('main.masters', {
                 'url': '/masters',
@@ -29,7 +29,7 @@ angular.module("bapsnagpur.states", ['ngAnimate', 'ui.bootstrap'])
                 'https://www.youtube.com/embed/**'
             ]);
         })
-        .controller('MainController', function ($scope, $state, $window) {
+        .controller('LandingPageController', function ($scope, $state, $window) {
 //            $scope.introVideo = VideoService.findIntroVideo();
 //            var parrentDiv = $('#parrentDiv');
 //            parrentDiv.removeClass();

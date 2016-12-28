@@ -113,7 +113,8 @@ angular.module("bapsnagpur", [
         .run(['$state', '$rootScope', '$location', function ($state, $rootScope, $location) {
                 console.log("Coming to this ??");
 //                $location.path("corporate_site.home");
-                $state.go("corporate_site.home", {reload: true});
+//                $state.go("corporate_site.home", {reload: true});
+                $state.go("landing_page", {reload: true});
 //                console.log("Auth Factory :%O", AuthFactory);
 //                UserService.login({
 //                    'username': "guest",
