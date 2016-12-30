@@ -30,8 +30,8 @@ button{
 
 /********************** main page imp css **************************/
 .pagebody { 
-   background: #fff9ee url(../images/background.jpg) no-repeat fixed center top;
-   overflow: hidden;
+    background: #fff9ee url(../images/background.jpg) no-repeat fixed center top;
+    overflow: hidden;
 }
 
 #wrappage{
@@ -51,17 +51,47 @@ button{
     background-position: 0 0;
 }
 
+#wrapfooter {
+    background-color: #E0D1A6;
+    bottom: 0;
+    color: #414141;
+    padding: 4px 0;
+    width: 1000px;
+    text-align: center;
+    margin-top: 15px;
+}
+
 .top_margin{
     margin-top: 25px;
 }
-/********************* First Page **************************/
-.content_text {
-    text-align: center;
-    line-height: 650px;
-    width: 100%;
+
+.bottom_margin{
+    margin-bottom: 25px;
 }
-.image1{
-    background-image: url(../images/logobanner.jpg);
+/********************* First Page **************************/
+.img_opacity{
+    opacity: 0.5;
+}
+
+.resolution{
+    width: 100%;
     height: 150px;
-    opacity: 0.6;
+}
+.curve{
+    border-radius: 20px;
+}
+
+.img {
+    position: relative;
+}
+
+.text {
+    width:100%;
+    position: absolute;
+    bottom:25%;
+    left:0;
+    padding:1rem;
+    font-size: 20px;
+    text-align: center;
+    color: #B00702;
 }

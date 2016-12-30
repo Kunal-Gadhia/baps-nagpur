@@ -176,15 +176,57 @@ angular.module("bapsnagpur.states.corporate_site", [])
             $scope.active = 0;
             $scope.slides = [
                 {
-                    image: 'images/banner.jpg',
-                    text: 'To take an Informed Decision'
+                    image: 'images/Akshardham/Delhi/1.jpg'
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/Akshardham/Delhi/2.jpg'
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/Akshardham/Delhi/3.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/4.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/5.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/6.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/7.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/8.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/9.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/10.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/11.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/12.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/13.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/14.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/15.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/16.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Delhi/17.jpg'
                 }
+                
             ];
         })
         .controller('GandhiNagarAkshardhamController', function ($scope) {
@@ -194,15 +236,21 @@ angular.module("bapsnagpur.states.corporate_site", [])
             $scope.active = 0;
             $scope.slides = [
                 {
-                    image: 'images/banner.jpg',
-                    text: 'To take an Informed Decision'
+                    image: 'images/Akshardham/Gandhinagar/1.jpg'
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/Akshardham/Gandhinagar/2.jpg'
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/Akshardham/Gandhinagar/3.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Gandhinagar/4.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Gandhinagar/5.jpg'
                 }
+                
             ];
         })
         .controller('NewJerseyAkshardhamController', function ($scope) {
@@ -212,14 +260,37 @@ angular.module("bapsnagpur.states.corporate_site", [])
             $scope.active = 0;
             $scope.slides = [
                 {
-                    image: 'images/banner.jpg',
-                    text: 'To take an Informed Decision'
+                    image: 'images/Akshardham/NewJersey/1.JPG'
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/Akshardham/NewJersey/2.jpg'
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/Akshardham/NewJersey/3.jpg'
+                },
+                {
+                    image: 'images/Akshardham/NewJersey/4.jpg'
+                },
+                {
+                    image: 'images/Akshardham/NewJersey/5.jpg'
+                },
+                {
+                    image: 'images/Akshardham/NewJersey/6.jpg'
+                },
+                {
+                    image: 'images/Akshardham/NewJersey/7.jpg'
+                },
+                {
+                    image: 'images/Akshardham/NewJersey/8.jpg'
+                },
+                {
+                    image: 'images/Akshardham/NewJersey/9.jpg'
+                },
+                {
+                    image: 'images/Akshardham/NewJersey/10.jpg'
+                },
+                {
+                    image: 'images/Akshardham/Gandhinagar/11.jpg'
                 }
             ];
         })
@@ -230,14 +301,142 @@ angular.module("bapsnagpur.states.corporate_site", [])
             $scope.active = 0;
             $scope.slides = [
                 {
-                    image: 'images/banner.jpg',
-                    text: 'To take an Informed Decision'
+                    image: 'images/Akshardham/InternationalCenters/atlanta1.jpg'
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/Akshardham/InternationalCenters/atlanta2.jpg'
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/Akshardham/InternationalCenters/atlanta3.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/atlanta4.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/atlanta5.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/atlanta6.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/chicago1.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/chicago2.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/chicago3.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/chicago4.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/chicago5.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/houston1.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/houston2.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/houston3.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/houston4.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/houston5.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/houston6.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/houston7.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/london.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/london1.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/london2.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/london3.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/london4.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/london5.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/london6.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/losangeles.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/losangeles2.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/losangeles3.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/losangeles4.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/losangeles5.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/nairobi1.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/nairobi2.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/nairobi3.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/nairobi4.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto1.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto2.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto3.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto4.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto5.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto6.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto7.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto8.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto9.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto10.jpg'
+                },
+                {
+                    image: 'images/Akshardham/InternationalCenters/toronto11.jpg'
                 }
             ];
         })
