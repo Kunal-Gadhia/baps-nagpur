@@ -137,14 +137,20 @@ angular.module("bapsnagpur.states.corporate_site", [])
             $scope.active = 0;
             $scope.slides = [
                 {
-                    image: 'images/banner.jpg',
-                    text: 'To take an Informed Decision'
+                    image: 'images/bapa.jpg',
+                    text: 'His Holiness Pramukh Swami Maharaj'
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/bhagwan-swaminarayan1.jpg'
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/baps_1.jpg'
+                },
+                {
+                    image: 'images/baps_2.jpg'
+                },
+                {
+                    image: 'images/baps_3.jpg'
                 }
             ];
         })
@@ -155,14 +161,22 @@ angular.module("bapsnagpur.states.corporate_site", [])
             $scope.active = 0;
             $scope.slides = [
                 {
-                    image: 'images/banner.jpg',
-                    text: 'To take an Informed Decision'
+                    image: 'images/baps_1.jpg',                    
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/baps_2.jpg'
                 },
                 {
-                    image: 'images/banner.jpg'
+                    image: 'images/baps_3.jpg'
+                },
+                {
+                    image: 'images/baps_4.jpg'
+                },
+                {
+                    image: 'images/baps_5.jpg'
+                },
+                {
+                    image: 'images/baps_6.jpg'
                 }
             ];
         })
@@ -290,7 +304,7 @@ angular.module("bapsnagpur.states.corporate_site", [])
                     image: 'images/Akshardham/NewJersey/10.jpg'
                 },
                 {
-                    image: 'images/Akshardham/Gandhinagar/11.jpg'
+                    image: 'images/Akshardham/NewJersey/11.jpg'
                 }
             ];
         })
@@ -448,6 +462,50 @@ angular.module("bapsnagpur.states.corporate_site", [])
         })
         .controller('SacredMurtiTimingsController', function ($scope) {
             console.log("Hello Sacred Murti Timing Controller");
+    $scope.myInterval = 2000;
+            $scope.noWrapSlides = false;
+            $scope.active = 0;
+            $scope.slides = [
+                {
+                    image: 'images/murti1.JPG'
+                },
+                {
+                    image: 'images/murti2.JPG'
+                },
+                {
+                    image: 'images/murti3.JPG'
+                },
+                {
+                    image: 'images/murti4.JPG'
+                },
+                {
+                    image: 'images/murti5.JPG'
+                },
+                {
+                    image: 'images/murti6.JPG'
+                },
+                {
+                    image: 'images/murti7.JPG'
+                },
+                {
+                    image: 'images/murti8.JPG'
+                },
+                {
+                    image: 'images/murti9.JPG'
+                },
+                {
+                    image: 'images/murti10.JPG'
+                },
+                {
+                    image: 'images/murti11.JPG'
+                },
+                {
+                    image: 'images/murti12.JPG'
+                },
+                {
+                    image: 'images/murti13.JPG'
+                }
+            ];
         })
         .controller('AbhishekMandapamController', function ($scope) {
             console.log("Hello Abhishek Mandapam Controller");
